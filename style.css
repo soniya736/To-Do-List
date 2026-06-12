@@ -1,0 +1,70 @@
+body{
+    background-color:beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Todo box */
+.container{
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+h1{
+    text-align: center;
+    color: antiquewhite;
+}
+#input{
+    width: 70%;
+    padding:10px;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Add button */
+button{
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color:white;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
+
+/*Todo list */
+#list-container{
+    margin-top: 20px;
+    padding: 0px;
+}
+
+/* Each task */
+#list-container li{
+    list-style: none;
+    background-color: aliceblue ;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Delete button */
+#list-container li button{
+    background-color: red;
+    padding: 6px 10px;
+}
+#list container li button:hover{
+    background-color: darkred;
+}
